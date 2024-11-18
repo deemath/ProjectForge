@@ -1,3 +1,8 @@
+<?php
+require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config/config.php";
+?>
+
+
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -28,7 +33,7 @@
             <span class="ml-2 text-xl font-bold text-blue-900">FORGE</span>
         </div>
         <div class="px-6 py-4">
-            <a href="#" class="href">
+            <a href="<?= BASE_URL.$studentViews . 'dashboard.php'; ?>" class="href"> 
             <div class="flex items-center mb-6">
                 <img alt="Dummy Project Logo" class="h-10 w-10" height="40" src="https://storage.googleapis.com/a1aa/image/m9MmFMflo3VjaqCbWInRx9fg1sOW9ZNN4cpCf7YfQoghIxAPB.jpg" width="40"/>
                 <div class="ml-2">
@@ -40,13 +45,13 @@
             <nav>
                 <ul>
                     <li class="mb-4 ">
-                        <a class="flex items-center text-gray-700" href="#">
+                        <a class="flex items-center text-gray-700" href="<?= BASE_URL.$studentViews . 'tasklist1.php'; ?>">
                             <i class="fas fa-tasks mr-3"></i>
                             <span>Tasks</span>
                         </a>
                     </li>
                     <li class="mb-4 ">
-                        <a class="flex items-center text-gray-700" href="#">
+                        <a class="flex items-center text-gray-700" href="<?= BASE_URL.$studentViews . 'timeline.php'; ?>">
                             <i class="fas fa-stream mr-3"></i>
                             <span>Timeline</span>
                         </a>

@@ -211,8 +211,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config/config.php";
                     <div class="description">Description of project 1. This is a brief overview of what the project is about.</div>
                     <div class="actions">
                         <div class="role member">Member</div>
-                        <a href="<?= $studentViews. 'taskslist.php'; ?>">fewdf</a>
-                        <button onclick="window.location.href='<?= BASE_URL.$studentViews . 'taskslist.php'; ?>';">Visit</button>
+                        
+                        <button onclick="window.location.href='<?= BASE_URL.$studentViews . 'tasklist1.php'; ?>';">Visit</button>
 
                     </div>
                     <div class="progress-bar">
