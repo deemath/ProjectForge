@@ -1,3 +1,6 @@
+<?php
+    require "config/config.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -100,7 +103,7 @@
        
         <h1>Forge</h1>
         <h2>Student Project Management System</h2>
-        <form id="loginForm">
+        <form id="loginForm" action="<?= $views . 'common.php'; ?>">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" required>
@@ -118,3 +121,4 @@
     </div>
 </body>
 </html>
+
