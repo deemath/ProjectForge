@@ -212,7 +212,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config/config.php";
                     <div class="actions">
                         <div class="role member">Member</div>
                         
-                        <button onclick="window.location.href='<?= BASE_URL.$studentViews . 'tasklist1.php'; ?>';">Visit</button>
+                        <button onclick="window.location.href='<?= BASE_URL.$studentViews . 'dashboard.php'; ?>';">Visit</button>
 
                     </div>
                     <div class="progress-bar">

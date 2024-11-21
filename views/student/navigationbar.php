@@ -63,7 +63,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config/config.php";
                         </a>
                     </li>
                     <li class="mb-4">
-                        <a class="flex items-center text-gray-700" href="#">
+                        <a class="flex items-center text-gray-700" href="<?= BASE_URL.$studentViews . 'chatbox.php'; ?>">
                             <i class="fas fa-comments mr-3"></i>
                             <span>Forum</span>
                         </a>
