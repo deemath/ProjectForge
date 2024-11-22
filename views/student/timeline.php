@@ -1,6 +1,6 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config/config.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config.php";
 
 ?>
 <?php

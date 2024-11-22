@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config/config.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config.php";
 ?>
 
 
@@ -33,7 +33,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config/config.php";
             <span class="ml-2 text-xl font-bold text-blue-900">FORGE</span>
         </div>
         <div class="px-6 py-4">
-            <a href="<?= BASE_URL.$studentViews . 'dashboard.php'; ?>" class="href"> 
+            <a href="<?= STUDENT_VIEWS . 'dashboard.php'; ?>" class="href"> 
             <div class="flex items-center mb-6">
                 <img alt="Dummy Project Logo" class="h-10 w-10" height="40" src="https://storage.googleapis.com/a1aa/image/m9MmFMflo3VjaqCbWInRx9fg1sOW9ZNN4cpCf7YfQoghIxAPB.jpg" width="40"/>
                 <div class="ml-2">
@@ -45,13 +45,13 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config/config.php";
             <nav>
                 <ul>
                     <li class="mb-4 ">
-                        <a class="flex items-center text-gray-700" href="<?= BASE_URL.$studentViews . 'tasklist1.php'; ?>">
+                        <a class="flex items-center text-gray-700" href="<?=STUDENT_VIEWS . 'tasklist1.php'; ?>">
                             <i class="fas fa-tasks mr-3"></i>
                             <span>Tasks</span>
                         </a>
                     </li>
                     <li class="mb-4 ">
-                        <a class="flex items-center text-gray-700" href="<?= BASE_URL.$studentViews . 'timeline.php'; ?>">
+                        <a class="flex items-center text-gray-700" href="<?=STUDENT_VIEWS . 'timeline.php'; ?>">
                             <i class="fas fa-stream mr-3"></i>
                             <span>Timeline</span>
                         </a>
@@ -63,7 +63,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config/config.php";
                         </a>
                     </li>
                     <li class="mb-4">
-                        <a class="flex items-center text-gray-700" href="<?= BASE_URL.$studentViews . 'chatbox.php'; ?>">
+                        <a class="flex items-center text-gray-700" href="<?=STUDENT_VIEWS . 'chatbox.php'; ?>">
                             <i class="fas fa-comments mr-3"></i>
                             <span>Forum</span>
                         </a>

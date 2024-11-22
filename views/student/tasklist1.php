@@ -1,7 +1,7 @@
 
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config/config.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config.php";
 
 ?>
 <?php
@@ -113,7 +113,9 @@ require_once "./navigationbar.php";
                         <div class="text-gray-700">2.2 sub task of task 2</div>
                     </div>
                     <div class="flex">
-                        <button class="flex-1 bg-blue-500 text-white py-2 px-4 rounded mr-2">Edit</button>
+                       
+                        <button class="flex-1 bg-blue-500 text-white py-2 px-4 rounded mr-2" onclick="window.location.href='./taskedit.php'">Edit</button>
+                      
                         <button class="flex-1 bg-red-500 text-white py-2 px-4 rounded">Delete</button>
                     </div>
                 </div>

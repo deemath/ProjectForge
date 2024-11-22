@@ -91,7 +91,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/projectforge/config/config.php";
 <body>
     <div class="login-container">
         <h2>Admin Login</h2>
-        <form id="loginForm" action="/admin/dashboard" method="POST">
+        <form id="loginForm" action="<?= $adminViews . 'Dashboard.php'; ?>" method="POST">
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
